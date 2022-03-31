@@ -1,4 +1,4 @@
-const Navigation = (props) => {
+export default function Navigation(props) {
   return (
     <ul>
       <li>Dobrodosli</li>
@@ -7,5 +7,4 @@ const Navigation = (props) => {
       <li>Kontakt</li>
     </ul>
   );
-};
-export default Navigation;
+}

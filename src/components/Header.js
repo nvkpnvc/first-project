@@ -2,10 +2,10 @@ import Navigation from "./Navigation";
 
 const Header = (props) => {
   return (
-    <div>
+    <header>
       <h1> Header! </h1>
       <Navigation />
-    </div>
+    </header>
   );
 };
 export default Header;
