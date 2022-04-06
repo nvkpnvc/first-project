@@ -1,6 +1,7 @@
-import Footer from "./components/Footer";
-import Carousel from "./components/Carousel";
 import Header from "./components/Header";
+import Carousel from "./components/Carousel";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <>
       <Header />
       <Carousel />
-      <h2>Tekst test</h2>
+      <h2>Body text</h2>
+      <Body />
       <p>Opiss aaaabbababbbababbab</p>
       <Footer />
     </>

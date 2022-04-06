@@ -2,8 +2,14 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 export default function Navigation(props) {
   return (
-    <Navbar fixed="top" bg="dark" variant="dark" collapseOnSelect>
-      <Container>
+    <Navbar
+      fixed="top"
+      bg="dark"
+      variant="dark"
+      collapseOnSelect
+      className="opacity-75"
+    >
+      <Container fluid="md">
         <Navbar.Brand href="#home">Copper Queen</Navbar.Brand>
 
         <Nav className="ml-auto d-flex justify-content-end">
