@@ -1,13 +1,13 @@
-import Galerija from "../pages/Galerija";
-import Kontakt from "../pages/Kontakt";
-import Usluge from "../pages/Usluge";
+import Gallery from "../pages/Gallery";
+import Contact from "../pages/Contact";
+import Services from "../pages/Services";
 
 export default function Body() {
   return (
     <>
-      <Usluge></Usluge>
-      <Galerija></Galerija>
-      <Kontakt></Kontakt>
+      <Services></Services>
+      <Gallery></Gallery>
+      <Contact></Contact>
     </>
   );
 }
