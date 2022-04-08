@@ -4,9 +4,9 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 const Footer = (props) => {
   return (
     <ModalFooter className="text-muted bg-dark">
-      <Container fluid="md">
+      <Container className="container-sm">
         <Row>
-          <Col className="d-flex justify-content-center">
+          <Col className="d-flex justify-content-left">
             Pratite nas na Facebooku i Instagramu:
             <FontAwesomeIcon
               icon={faFacebook}
@@ -20,15 +20,16 @@ const Footer = (props) => {
               href="https://www.instagram.com/copper_queen_sala"
               title="Instagram/CopperQueen"
             ></FontAwesomeIcon>
-          </Col>
-          <Col className="d-flex justify-content-center">
-            2022 &copy; Valjaonica Bakra Sevojno{" "}
-            <a
-              href="http://www.vbs.co.rs/index.html"
-              className="text-decoration-none "
-            >
-              www.vbs.co.rs
-            </a>
+            <p className="ms-4">
+              2022 &copy; Valjaonica Bakra Sevojno
+              <a
+                style={{ color: "#b87333" }}
+                href="http://www.vbs.co.rs/index.html"
+                className="text-decoration-none  ms-1"
+              >
+                www.vbs.co.rs
+              </a>
+            </p>
           </Col>
         </Row>
       </Container>

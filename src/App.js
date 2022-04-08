@@ -9,9 +9,7 @@ function App() {
     <>
       <Header />
       <Carousel />
-      <h2>Body text</h2>
       <Body />
-      <p>Opiss aaaabbababbbababbab</p>
       <Footer />
     </>
   );
