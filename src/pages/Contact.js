@@ -11,7 +11,15 @@ export default function Contact() {
           <Col>
             <div style={{ width: 300, height: 300 }}>
               <Ratio aspectRatio="1x1">
-                <embed src="https://www.google.com/maps/place/Sve%C4%8Dana+sala+%22Copper+Queen%22/@43.8417477,19.8904221,17.75z/data=!4m12!1m6!3m5!1s0x0:0xff1684da5b01a413!2sSve%C4%8Dana+sala+%22Copper+Queen%22!8m2!3d43.8418476!4d19.8904088!3m4!1s0x0:0xff1684da5b01a413!8m2!3d43.8418476!4d19.8904088?hl=en" />
+                <iframe
+                  title="sad"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6844.525317464675!2d19.890698023706037!3d43.83989984118644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4759d571a715578b%3A0xff1684da5b01a413!2sCopper%20Queen%20sala%20za%20proslave!5e0!3m2!1sen!2srs!4v1568205781119!5m2!1sen!2srs"
+                  width="600"
+                  height="450"
+                  style={{
+                    border: 0
+                  }}
+                ></iframe>
               </Ratio>
             </div>
           </Col>
